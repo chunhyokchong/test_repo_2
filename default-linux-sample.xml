@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>                                           
+<manifest>                                                                       
+    <remote                                                                      
+        name="origin"                                                            
+        fetch="ssh://git@github.com/"/>                                          
+    <remote                                                                      
+        name="html5"                                                             
+        fetch="ssh://git@github.com/"                                            
+        review="review.gerrithub.io"/>                                           
+    <default revision="main" remote="origin"/>                                 
+                                                                                 
+    <project                                                                     
+        path="bash"                                                              
+        name="twityhwan/bash"/>                                                  
+    <project                                                                     
+        path="c"                                                                 
+        name="twityhwan/C_Practice"/>                                            
+    <project                                                                     
+        path="html5"                                                             
+        name="twityhwan/html5"                                                   
+        remote="html5"/>                                                         
+</manifest> 
